@@ -10,7 +10,7 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  background: #7A419B;
+  background: black;
   min-height: 100vh;
   background: linear-gradient(135deg, #7c1599 0%,#921099 48%,#7e4ae8 100%);
   background-size: cover;
@@ -26,34 +26,12 @@ body {
   font-size: 0;
   overflow: hidden;
 }
-/* .full-screen {
-  vertical-align: middle;
-  box-sizing: border-box;
-  display: inline-block;
-  border: .1em solid currentColor;
-  width: 1em;
-  height: 1em;
-  position: relative;
-}
-.full-screen:before, .full-screen:after {
-  content: '';
-  background: #04233D;
-  position: absolute;
-}
-.full-screen:before {
-  width: .333em;
-  height: 1em;
-  left: .233em;
-  top: -.1em;
-}
-.full-screen:after {
-  width: 1em;
-  height: .333em;
-  top: .233em;
-  left: -.1em;
-} */
 
 /* This css is only applied when fullscreen is active. */
+.fullscreen {
+
+}
+
 .player:fullscreen {
   max-width: none;
   width: 100%;
