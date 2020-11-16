@@ -10,7 +10,7 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  background-color: black;
+  background-color: rgb(228, 139, 139);
   min-height: 100vh;
   background-size: cover;
   align-items: center;
