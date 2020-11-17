@@ -25,6 +25,9 @@ body {
   font-size: 0;
   overflow: hidden;
 }
+button:hover {
+  cursor: pointer;
+}
 
 /* This css is only applied when fullscreen is active. */
 .fullscreen {
